@@ -5,3 +5,7 @@ Prerequisites
 3. Ghostscript, available [here](http://www.ghostscript.com/download/gsdnld.html)
 4. ImageMagick, available [here](http://www.imagemagick.org/script/binary-releases.php#windows)
 5. Microsoft Word
+
+Usage
+=====
+Run `python doc2png <doc file name>`.
