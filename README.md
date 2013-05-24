@@ -12,4 +12,4 @@ Building a Windows installer
 
 Usage
 =====
-Right-click the Word Document and select 'Convert to PNG'
+Right-click the Word Document and select 'Convert to PNG'.
