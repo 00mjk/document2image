@@ -6,6 +6,10 @@ Prerequisites
 4. ImageMagick, available [here](http://www.imagemagick.org/script/binary-releases.php#windows)
 5. Microsoft Word
 
+Building a Windows installer
+============================
+`$ python setup.py bdist_wininst --install-script=postinstall.py`
+
 Usage
 =====
-Run `python doc2png <doc file name>`.
+Right-click the Word Document and select 'Convert to PNG'
