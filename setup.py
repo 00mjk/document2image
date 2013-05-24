@@ -1,4 +1,9 @@
 from distutils.core import setup
-import py2exe
 
-setup(console=['doc2png.py'])
+setup(name='doc2png',
+       version='0.1',
+       py_modules=['doc2png'],
+       author='Amir Livneh',
+       url='https://github.com/amirlivneh/doc2png',
+       scripts=['doc2png.py', 'postinstall.py']
+       )
