@@ -18,7 +18,7 @@ def unregister_file_type(file_type):
     winreg.DeleteKey(winreg.HKEY_CURRENT_USER, COMMAND_KEY % (file_type,
                                                               CONVERT_TO_PNG))
     winreg.DeleteKey(winreg.HKEY_CURRENT_USER, VERB_KEY % (file_type,
-                                                         CONVERT_TO_PNG))
+                                                           CONVERT_TO_PNG))
 
 def install():
     register_file_type("Word.Document.8")
