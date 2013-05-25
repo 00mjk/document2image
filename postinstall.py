@@ -1,6 +1,9 @@
 import sys
 import os.path as osp
-import _winreg as winreg
+try:
+    import _winreg as winreg
+except ImportError:
+    import winreg
 
 CONVERT_TO_PNG = "Convert to PNG"
 VERB_KEY = r"Software\Classes\%s\shell\%s"
