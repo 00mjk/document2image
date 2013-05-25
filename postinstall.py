@@ -1,8 +1,9 @@
 import sys
 import os.path as osp
-try:
+
+if sys.version < '3':
     import _winreg as winreg
-except ImportError:
+else:
     import winreg
 
 CONVERT_TO_PNG = "Convert to PNG"
