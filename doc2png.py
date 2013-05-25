@@ -4,16 +4,16 @@ import comtypes.client
 import subprocess
 
 wdFormatPDF = 17
+if sys.version < '3':
+    import _winreg as winreg
+else:
+    import winreg
+
 
 def get_imagemagick_bin_path():
     return winreg.QueryValueEx(winreg.CreateKey(winreg.HKEY_LOCAL_MACHINE,
                                                 "SOFTWARE\ImageMagick\Current"),
                               "BinPath")[0]
-
-if sys.version < '3':
-    import _winreg as winreg
-else:
-    import winreg
 
 in_file = os.path.abspath(sys.argv[1])
 pdf_file = os.path.splitext(in_file)[0] + ".pdf"
