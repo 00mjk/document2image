@@ -1,6 +1,7 @@
 Prerequisites
 =============
-* Python 2.7, available [here](http://www.python.org/getit/)
+* Python 2.7 or 3.1, available [here](http://www.python.org/getit/). Note that Python 3.1 is
+  required for supporting Unicode file names.
 * comtypes, available [here](http://sourceforge.net/projects/comtypes/files/comtypes/)
 * Ghostscript, available [here](http://www.ghostscript.com/download/gsdnld.html)
 * ImageMagick 6.8.5-Q16, available [here](http://www.imagemagick.org/download/binaries/ImageMagick-6.8.5-7-Q16-x86-dll.exe)
