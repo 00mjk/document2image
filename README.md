@@ -18,4 +18,4 @@ Right-click the Word Document and select 'Convert to PNG'.
 
 From the command line
 ---------------------
-`$ python doc2png.py <doc file name>`
+`$ python doc2png.py <doc file>`
