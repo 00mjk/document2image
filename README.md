@@ -3,7 +3,7 @@ Prerequisites
 * Python 2.7, available [here](http://www.python.org/getit/)
 * comtypes, available [here](http://sourceforge.net/projects/comtypes/files/comtypes/)
 * Ghostscript, available [here](http://www.ghostscript.com/download/gsdnld.html)
-* ImageMagick 6.8.5-Q16, available [here](http://www.imagemagick.org/script/binary-releases.php#windows)
+* ImageMagick 6.8.5-Q16, available [here](http://www.imagemagick.org/download/binaries/ImageMagick-6.8.5-7-Q16-x86-dll.exe)
 * Microsoft Word
 
 Building a Windows installer
