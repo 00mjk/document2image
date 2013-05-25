@@ -12,4 +12,10 @@ Building a Windows installer
 
 Usage
 =====
+From the File Explorer
+----------------------
 Right-click the Word Document and select 'Convert to PNG'.
+
+From the command line
+---------------------
+`$ python doc2png.py <doc file name>`
