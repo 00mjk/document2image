@@ -4,7 +4,7 @@ Prerequisites
   required to support Unicode file names.
 * comtypes, available [here](http://sourceforge.net/projects/comtypes/files/comtypes/)
 * Ghostscript, available [here](http://www.ghostscript.com/download/gsdnld.html)
-* ImageMagick 6.8.5-Q16, available [here](http://www.imagemagick.org/download/binaries/ImageMagick-6.8.5-7-Q16-x86-dll.exe)
+* ImageMagick, available [here](http://www.imagemagick.org/script/binary-releases.php#windows)
 * Microsoft Word
 
 Building a Windows installer
