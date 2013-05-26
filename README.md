@@ -12,7 +12,7 @@ Prerequisites
 * comtypes, available [here](http://sourceforge.net/projects/comtypes/files/comtypes/)
 * Ghostscript, available [here](http://www.ghostscript.com/download/gsdnld.html)
 * ImageMagick, available [here](http://www.imagemagick.org/script/binary-releases.php#windows)
-* Optional: Microsoft Word, to support conversion of Word documents
+* Optional: Microsoft Word (required to support conversion of Word documents)
 
 Building a Windows installer
 ============================
