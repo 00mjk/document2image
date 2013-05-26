@@ -3,12 +3,12 @@ import os
 import comtypes.client
 import subprocess
 
-wdFormatPDF = 17
 if sys.version < '3':
     import _winreg as winreg
 else:
     import winreg
 
+wdFormatPDF = 17
 
 def get_imagemagick_bin_path():
     return winreg.QueryValueEx(winreg.CreateKey(winreg.HKEY_LOCAL_MACHINE,
