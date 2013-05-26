@@ -1,5 +1,12 @@
+Features
+========
+* The following file types can be converted: .doc, .docx, .pdf
+* Multi-page document support
+* Right-click file and select "Convert to PNG" in File Explorer
+
 Prerequisites
 =============
+* Operating system: Windows XP or later
 * Python 2.7 or 3.1, available [here](http://www.python.org/getit/). Note that Python 3.1 is
   required to support Unicode file names.
 * comtypes, available [here](http://sourceforge.net/projects/comtypes/files/comtypes/)
