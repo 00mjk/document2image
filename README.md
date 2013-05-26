@@ -2,7 +2,7 @@ Features
 ========
 * The following file types can be converted: .doc, .docx, .pdf
 * Multi-page document support
-* Right-click file and select "Convert to PNG" in File Explorer
+* Windows/File Explorer integration
 
 Prerequisites
 =============
