@@ -27,8 +27,10 @@ def unregister_file_type(file_type):
 def install():
     register_file_type("Word.Document.8")
     register_file_type("Word.Document.12")
+    register_file_type("AcroExch.Document.7")
     
 def remove():
+    unregister_file_type("AcroExch.Document.7")
     unregister_file_type("Word.Document.12")
     unregister_file_type("Word.Document.8")
 

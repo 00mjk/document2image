@@ -5,7 +5,7 @@ Prerequisites
 * comtypes, available [here](http://sourceforge.net/projects/comtypes/files/comtypes/)
 * Ghostscript, available [here](http://www.ghostscript.com/download/gsdnld.html)
 * ImageMagick, available [here](http://www.imagemagick.org/script/binary-releases.php#windows)
-* Microsoft Word
+* Optional: Microsoft Word, to support conversion of Word documents
 
 Building a Windows installer
 ============================
@@ -19,4 +19,4 @@ Right-click the Word Document and select 'Convert to PNG'.
 
 From the command line
 ---------------------
-`$ python doc2png.py <doc file>`
+`$ python doc2png.py <document>`
