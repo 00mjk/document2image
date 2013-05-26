@@ -15,7 +15,7 @@ def register_file_type(file_type):
     key = winreg.CreateKey(winreg.HKEY_CURRENT_USER, COMMAND_KEY % 
                            (file_type, CONVERT_TO_PNG))
     winreg.SetValueEx(key, "", 0, winreg.REG_SZ,
-                      '"%s" "%s\Scripts\doc2png.py" "%%1"' % 
+                      '"%s" "%s\Scripts\document2image.py" "%%1"' %
                       (pythonw, sys.prefix))
 
 def unregister_file_type(file_type):
@@ -28,7 +28,7 @@ def install():
     register_file_type("Word.Document.8")
     register_file_type("Word.Document.12")
     register_file_type("AcroExch.Document.7")
-    
+
 def remove():
     unregister_file_type("AcroExch.Document.7")
     unregister_file_type("Word.Document.12")
