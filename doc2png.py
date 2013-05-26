@@ -25,5 +25,5 @@ doc.SaveAs(pdf_file, FileFormat=wdFormatPDF)
 doc.Close()
 word.Quit()
 
-subprocess.call([os.path.join(get_imagemagick_bin_path(), "convert"), pdf_file,
-                 png_file])
+subprocess.call([os.path.join(get_imagemagick_bin_path(), "convert"),
+                 "-density", "150", pdf_file, png_file])
