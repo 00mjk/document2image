@@ -1,6 +1,7 @@
+Converts .doc, .docx and .pdf files to PNG.
+
 Features
 ========
-* The following file types can be converted: .doc, .docx, .pdf
 * Multi-page document support
 * Windows/File Explorer integration
 
