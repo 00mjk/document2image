@@ -2,6 +2,7 @@ import sys
 import os
 import comtypes.client
 import subprocess
+import tempfile
 
 if sys.version < '3':
     import _winreg as winreg
@@ -36,14 +37,20 @@ def main():
         
     # TODO: Check if file exists
 
+    temp_files = []
     file_base = os.path.splitext(in_file)[0]
 
     if in_file_ext in [".doc", ".docx"]:
-        convert_doc_to_pdf(in_file, file_base + ".pdf")
+        pdf_file = tempfile.mktemp(suffix=".pdf")
+        temp_files.append(pdf_file)
+        convert_doc_to_pdf(in_file, pdf_file)
+    else:
+        pdf_file = in_file
 
-    convert_pdf_to_png(file_base + ".pdf", file_base + "%02d.png")
+    convert_pdf_to_png(pdf_file, file_base + "%02d.png")
     
-    # TODO: Delete PDF
+    for file in temp_files:
+        os.unlink(file)
 
 if __name__ == '__main__':
     main()
